@@ -1,0 +1,14 @@
+.carousel-inner{
+	max-height:450px;
+}
+.about-img{
+	max-height: 400px;
+	width: 100%;
+}
+.aa-blog-single{
+	min-height: 620px;
+}
+#aa-menu-area .main-navbar .navbar-header .aa-logo{
+	padding:10px!important;
+	font-size: 30px;
+}
