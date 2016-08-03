@@ -12,3 +12,16 @@
 	padding:10px!important;
 	font-size: 30px;
 }
+#slider img{
+    max-height: 450px;
+}
+.nivo-caption { 
+       width: 200px!important; 
+       height: auto!important; 
+       left: 100px!important; /* same as the width */
+       bottom: 50px!important; /* same as the width */
+ }
+ 
+ .fullwidthbanner{
+     max-height: 500px;
+ }
