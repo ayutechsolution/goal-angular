@@ -21,6 +21,17 @@
                                 controllerAs: 'home'
                               }
                             }
+                        })
+                        .state('menu.career', {
+                            url: '/career',
+                            cache:false,
+                            views: {
+                              'menuContent': {
+                                templateUrl: "app/career/career.html",
+                                controller: 'careerCtrl',
+                                controllerAs: 'career'
+                              }
+                            }
                         });
                 $urlRouterProvider.otherwise('/menu/home');
             });
