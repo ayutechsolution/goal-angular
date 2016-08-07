@@ -596,7 +596,7 @@ a:focus {
 #pricing-table .plan li.plan-name {
   font-size: 24px;
   line-height: 24px;
-  color: #fff;
+  color: #000;
 }
 #pricing-table .plan li.plan-name h3 {
   margin: 0;
@@ -626,7 +626,7 @@ a:focus {
   border-top: 0;
 }
 #pricing-table .plan.featured {
-  background-color: #2c3e50;
+  background-color: #fff;
 }
 #title h1 {
   margin: 0;
@@ -1097,4 +1097,19 @@ ul.faq li > div h3 {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+.underline{
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+.underline:before{
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 1px;
+    bottom: 0;
+    left: -5%;
+    border-bottom: 1px solid black;
 }
