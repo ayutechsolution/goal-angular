@@ -5,6 +5,20 @@
 	max-height: 400px;
 	width: 100%;
 }
+.aa-blog-img img{
+    min-height: 350px;
+}
+.about-Section{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about-Section .col-sm-12{
+    border-radius: 10px;
+}
+.fa-circle{
+    font-size: 6px!important;
+    vertical-align: middle;
+}
 
 
 
