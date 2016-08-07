@@ -14,22 +14,22 @@
         $timeout(function () {
             self.about1 = true;
             $('#about1').addClass('animated fadeInLeft');
-            $('#about1').css('background-color', '#fff');
+            $('#about1').css({'background-color': '#34495e', 'color':'#fff'});
         }, 1000);
         $timeout(function () {
             self.about2 = true;
             $('#about2').addClass('animated fadeInRight');
-            $('#about2').css('background-color', '#fff');
+            $('#about2').css({'background-color': '#34495e', 'color':'#fff'});
         }, 2000);
         $timeout(function () {
             self.about3 = true;
             $('#about3').addClass('animated fadeInLeft');
-            $('#about3').css('background-color', '#fff');
+            $('#about3').css({'background-color': '#34495e', 'color':'#fff'});
         }, 3000);
         $timeout(function () {
             self.about4 = true;
             $('#about4').addClass('animated fadeInRight');
-            $('#about4').css('background-color', '#fff');
+            $('#about4').css({'background-color': '#34495e', 'color':'#fff'});
         }, 4000);
     }
 })();
