@@ -6,10 +6,10 @@
                         .state('menu', {
                             url: '/menu',
                             templateUrl: "app/menu/menu.html",
-                            // controller: 'homeCtrl',
+                            controller: 'menuCtrl',
                             cache: false,
-                            abstract: true
-                                    // controllerAs: 'home'
+                            abstract: true,
+                            controllerAs: 'menu'
                         })
                         .state('menu.home', {
                             url: '/home',
