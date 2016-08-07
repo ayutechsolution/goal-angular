@@ -43,6 +43,17 @@
                                     controllerAs: 'about'
                                 }
                             }
+                        })
+                        .state('menu.gallery', {
+                            url: '/gallery',
+                            cache: false,
+                            views: {
+                                'menuContent': {
+                                    templateUrl: "app/gallery/gallery.html",
+                                    controller: 'galleryCtrl',
+                                    controllerAs: 'gallery'
+                                }
+                            }
                         });
                 $urlRouterProvider.otherwise('/menu/home');
             });
