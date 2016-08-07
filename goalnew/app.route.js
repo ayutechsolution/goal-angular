@@ -54,6 +54,17 @@
                                     controllerAs: 'gallery'
                                 }
                             }
+                        })
+                        .state('menu.contact', {
+                            url: '/contact',
+                            cache: false,
+                            views: {
+                                'menuContent': {
+                                    templateUrl: "app/contact/contact.html",
+                                    controller: 'contactCtrl',
+                                    controllerAs: 'contact'
+                                }
+                            }
                         });
                 $urlRouterProvider.otherwise('/menu/home');
             });
