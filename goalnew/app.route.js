@@ -6,10 +6,10 @@
                         .state('menu', {
                             url: '/menu',
                             templateUrl: "app/menu/menu.html",
-                            // controller: 'homeCtrl',
+                            controller: 'menuCtrl',
                             cache: false,
-                            abstract: true
-                                    // controllerAs: 'home'
+                            abstract: true,
+                            controllerAs: 'menu'
                         })
                         .state('menu.home', {
                             url: '/home',
@@ -41,6 +41,17 @@
                                     templateUrl: "app/about/about.html",
                                     controller: 'aboutCtrl',
                                     controllerAs: 'about'
+                                }
+                            }
+                        })
+                        .state('menu.gallery', {
+                            url: '/gallery',
+                            cache: false,
+                            views: {
+                                'menuContent': {
+                                    templateUrl: "app/gallery/gallery.html",
+                                    controller: 'galleryCtrl',
+                                    controllerAs: 'gallery'
                                 }
                             }
                         });
