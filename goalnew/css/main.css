@@ -962,8 +962,8 @@ ul.rss li::before {
   content: "\f09e";
 }
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #bdc3c7;
 }
 #footer a {
@@ -1112,4 +1112,11 @@ ul.faq li > div h3 {
     bottom: 0;
     left: -5%;
     border-bottom: 1px solid black;
+}
+.connect{
+  padding-right: 5px;
+  cursor: pointer;
+}
+.connect:hover{
+  color:#fff;
 }
