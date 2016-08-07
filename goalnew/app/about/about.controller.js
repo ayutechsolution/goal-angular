@@ -14,34 +14,22 @@
         $timeout(function () {
             self.about1 = true;
             $('#about1').addClass('animated fadeInLeft');
-            $('#about1').css('background-color', '#34495e');
-// =======
-//             $('#about1').css({'background-color': '#34495e', 'color':'#fff'});
-// >>>>>>> 26a74d472e70fcb9c4c6e0fef8667c783e72485c
+            $('#about1').css({'background-color': '#34495e', 'color':'#fff'});
         }, 1000);
         $timeout(function () {
             self.about2 = true;
             $('#about2').addClass('animated fadeInRight');
-            $('#about2').css('background-color', '#34495e');
-// =======
-//             $('#about2').css({'background-color': '#34495e', 'color':'#fff'});
-// >>>>>>> 26a74d472e70fcb9c4c6e0fef8667c783e72485c
+            $('#about2').css({'background-color': '#34495e', 'color':'#fff'});
         }, 2000);
         $timeout(function () {
             self.about3 = true;
             $('#about3').addClass('animated fadeInLeft');
-            $('#about3').css('background-color', '#34495e');
-// =======
-//             $('#about3').css({'background-color': '#34495e', 'color':'#fff'});
-// >>>>>>> 26a74d472e70fcb9c4c6e0fef8667c783e72485c
+            $('#about3').css({'background-color': '#34495e', 'color':'#fff'});
         }, 3000);
         $timeout(function () {
             self.about4 = true;
             $('#about4').addClass('animated fadeInRight');
-            $('#about4').css('background-color', '#34495e');
-// =======
-//             $('#about4').css({'background-color': '#34495e', 'color':'#fff'});
-// >>>>>>> 26a74d472e70fcb9c4c6e0fef8667c783e72485c
+            $('#about4').css({'background-color': '#34495e', 'color':'#fff'});
         }, 4000);
     }
 })();
