@@ -65,6 +65,17 @@
                                     controllerAs: 'contact'
                                 }
                             }
+                        })
+                        .state('menu.property', {
+                            url: '/property/:id',
+                            cache:false,
+                            views: {
+                              'menuContent': {
+                                templateUrl: "app/property/property.html",
+                                controller: 'propertyCtrl',
+                                controllerAs: 'property'
+                              }
+                            }
                         });
                 $urlRouterProvider.otherwise('/menu/home');
             });
