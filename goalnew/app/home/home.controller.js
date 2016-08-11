@@ -17,6 +17,7 @@
                 autoplaySpeed: 2000,
                 centerMode:true,
                 pauseOnHover:false,
+                mobileFirst:true,
             });
         });
 

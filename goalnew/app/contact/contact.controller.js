@@ -6,8 +6,5 @@
     function contactCtrl($state) {
         var self = this;
         console.log('hiihi');
-        angular.element('body').css('background-color', '#bfbfbf');
-
-
     }
 })();
