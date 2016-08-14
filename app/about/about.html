@@ -1,4 +1,4 @@
-<section id="aa-latest-blog" style="padding-top:150px;">
+<!--<section id="aa-latest-blog" style="padding-top:150px;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -48,7 +48,7 @@
       </div>
     </div>
   </section>
-  <!-- <section id="aa-latest-blog" style="padding-top:150px;">
+   <section id="aa-latest-blog" style="padding-top:150px;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -89,3 +89,92 @@
       </div>
     </div>
   </section> -->
+
+<div class="clear"></div>
+<section class="overview-banner">
+	<div class="container">
+		<div class="row">
+        	&nbsp;
+		</div>
+    </div>
+</section>
+<section class="innerpage-bg">
+	<div class="inner-heading-bg" style="margin-top:92px; z-index:1000000;"></div>
+	<div class="container">
+    	<table style="width:100%;">
+          <tr>
+            <td class="page-leftpanel">
+            	<h3>About Us</h3>
+                <div class="proj-nav">
+                    <ul class="list-unstyled">
+                        <li class="active"><a href="overview.html">Overview</a></li>
+                        <li><a href="vision-mission.html">Vision and Mission</a></li>
+                        <li><a href="chairman-message.html">Chairman Message</a></li>
+                        <li><a href="management.html">Management Team</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="awards-achievements.html">Awards & Achievements</a></li>
+                    </ul>
+                    <script type="text/javascript">
+				 // DOM ready
+				 $(function() {
+					  // Create the dropdown base
+					  $("<select />").appendTo(".proj-nav");
+					  // Create default option "Project Links..."
+					  $("<option />", {
+						 "selected": "selected",
+						 "value"   : "",
+						 "text"    : "About Us links..."
+					  }).appendTo(".proj-nav select");
+					  
+					  // Populate dropdown with menu items
+					  $(".proj-nav a").each(function() {
+					   var el = $(this);
+					   $("<option />", {
+						   "value"   : el.attr("href"),
+						   "text"    : el.text()
+					   }).appendTo(".proj-nav select");
+				  });
+				  
+				   // To make dropdown actually work
+				   // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+				  $(".proj-nav select").change(function() {
+						window.location = $(this).find("option:selected").val();
+				  });
+				 });
+				</script>
+                </div>
+                <div class="text-center visible-lg visible-md">
+                	<span><img src="images/leaf-pattern.png" alt="Leaf Pattern"></span>
+                	<h4 class="text-center">Corporate Video</h4>
+                    <a href="https://www.youtube.com/watch?v=GRtCnNyUFTU" class="html5lightbox" title="Corporate Video"><img src="images/corporate-video.jpg" alt="Corporate Video" class="img-responsive margin-auto"></a>
+                    <figure class="margintop10"><img src="images/leaf-pattern1.png" alt="Leaf Pattern"></figure>
+                </div>
+            </td>
+            <td class="page-rightpanel-hold">
+            	<div class="page-rightpanel marginbottom25">
+            		<div class="inner-heading">
+                    	<div class="col-md-12">
+                            <div class="page-breadcrumb">Home / About Us </div>
+                            <h1>Overview</h1>
+						</div>
+                        <div class="clear"></div>
+                    </div>
+                   <div class="clear"></div>
+                    <div class="row marginbottom25 margintop25">
+                            	<p class="text-justify">Star India Construction Pvt. Ltd. is one of India's most renowned capitalized real estate company which has curved a niche in real estate industry by delivering one after another quality projects across India over more than 22 years. In its constant pursuit of excellence, using innovation and cutting edge technology on all its completed, ongoing and upcoming projects. Star India Group has been crowned with numerous awards and recognition from the most reputed bodies in real estate industry. Star India Group has strong financial aid and engineering expertise, which make it a top of the line infrastructure provider, with a strong presence across India and abroad.<br>
+We are emerging groups in the field of Ideal Building Construction as also in land development and its promotional activities and we have succeeded like anything in our goal to provide suitable accomodation and modern living. We have constructed prestigious projects with high technical inputs. We always keep alert to maintain hogh degree of quality, professional excellence specially beauty to the surroundings and commitment for time.<br>
+<br>
+ 
+
+FOur entity is well established in field of ideal building construction as also as a real successful realtor with our goal to provide satisfactory 
+standard accomodation for dignified living by constructing so many projects in town of Patna (Bihat), Ranchi, Jamshedpur (Jharkhand) and Lucknow, Haridwar (U.P.) with high degree of quality and professional and attractive excellence. Keeping in view the surrounding to avail all the needs.</p>
+   
+                            </div>
+						<div class="clear"></div>
+                    </div>
+             </td>
+          </tr>
+        </table>
+    </div>
+</section>
+<div class="clear"></div>

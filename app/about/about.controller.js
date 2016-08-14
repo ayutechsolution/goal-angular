@@ -6,6 +6,6 @@
     function aboutCtrl($state) {
         var self = this;
         console.log('about');
-        angular.element('body').css('background-color', '#bfbfbf');
+//        angular.element('body').css('background-color', '#bfbfbf');
     }
 })();
