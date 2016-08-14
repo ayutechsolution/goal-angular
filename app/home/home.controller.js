@@ -4,7 +4,8 @@
             .controller('homeCtrl', homeCtrl);
 
     function homeCtrl($state, $ocLazyLoad, $timeout) {
-            $('.fullwidthbanner').revolution(
+          $timeout(function(){
+                $('.fullwidthbanner').revolution(
                     {
                         delay: 5000,
                         startwidth: 890,
@@ -23,6 +24,7 @@
                         fullWidth: "on",
                         shadow: 0                                //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
                     });
+          },100);
 
 
             $('.flexslider').flexslider({
