@@ -1,111 +1,132 @@
- <!-- SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#"><i class="fa fa-angle-double-up"></i></a>
-  <!-- END SCROLL TOP BUTTON -->
-
-  <!-- Start header section -->
-  <header id="aa-header" style="background-color:#c2d6d6;">  
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-header-area">
+<header>
+    <div class="container-fluid bg-blue">
+        <div class="container">
             <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="aa-header-left">
-                  <div class="aa-telephone-no">
-                    <span class="fa fa-phone"></span>
-                    +91-7544018870-75
-                  </div>
-                  <div class="aa-email hidden-xs">
-                    <span class="fa fa-envelope-o"></span> 
-                    <a href="mailto:sales@goalinfratech.com" style="color:#fff">sales@goalinfratech.com</a>
-                  </div>
-                </div>              
-              </div>
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="aa-header-right">
-                  <a class="aa-register" style="border:none;" href="app/assets/vision.pdf" download>Download Our Brochure</a>
-                 <!--  <a href="register.html" class="aa-register">Register</a>
-                  <a href="signin.html" class="aa-login">Login</a> -->
+                <div class="col-md-12">
+                    <div class="top-right">
+                        <img src="images/call-icon4ed5.png?1427392910" alt="Star India Construction">+91-612 2323026 | 9386732686 &nbsp; 
+                        &nbsp;<a href="mailto:info@starindiaconstruction.com" target="_blank"><span data-hover="info@starindiaconstruction.com"><img src="images/mail-icon4ed5.png?1427392910" alt="Star India Construction">info@starindiaconstruction.com</span></a> 
+                    </div> 
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <!-- End header section -->
- <!-- Start menu section -->
-  <section id="aa-menu-area">
-    <nav class="navbar navbar-default main-navbar" role="navigation">  
-      <div class="container">
-        <div class="navbar-header">
-          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- LOGO -->                                               
-          <!-- Text based logo -->
-           <a class="navbar-brand aa-logo" href="#/home"> <img style="display:inline;height:25px;width:50px;" src="img/favicon.ico" /> <span style="color:#008000;"> G</span><span style="color:#0066cc;">oal Infratech</span></a>
-           <!-- Image based logo -->
-           <!-- <a class="navbar-brand aa-logo-img" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
-            <li ng-class="{'active':activeMenu === 'menu.about'}"><a href="#/menu/about">ABOUT US</a></li>
-            <li ng-class="{'active':activeMenu === 'menu.home'}"><a href="#/home">HOME</a></li>
-             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="">PROPERTIES <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">                
-                <li><a href="">PROPERTIES</a></li>
-                <li><a href="">PROPERTIES DETAIL</a></li>
-              </ul>
-            </li>
-            <li ng-class="{'active':activeMenu === 'menu.contact'}"><a href="#/menu/contact">CONTACT</a></li>
-          </ul>                            
-        </div><!--/.nav-collapse -->       
-      </div>          
-    </nav> 
-  </section>
-  <!-- End menu section -->
-  <div ui-view="menuContent"></div> 
 
-  
-  <!-- Footer -->
-  <footer id="aa-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-        <div class="aa-footer-area">
-          <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="aa-footer-left">
-               <p>Designed by <a rel="nofollow" href="">ayutechsolution</a></p>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="aa-footer-middle">
-                <a target="_blank" href="https://www.facebook.com/Goal-Infratech-872755569507962/"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://twitter.com/GoalInfratech"><i class="fa fa-twitter"></i></a>
-                <a target="_blank" href="https://plus.google.com/118353805533005463074/about"><i class="fa fa-google-plus"></i></a>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-              <div class="aa-footer-right">
-                <a href="#">Home</a>
-                <a href="#">Support</a>
-                <a href="#">License</a>
-                <a href="#">FAQ</a>
-                <a href="#">Privacy & Term</a>
-              </div>
-            </div>            
-          </div>
-        </div>
-      </div>
-      </div>
     </div>
-  </footer>
-  <!-- / Footer -->
+    <section class="dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <div class="logo">
+                        <a href="#"><img src="images/logo.png" alt="builders in Patna" title="Star India Construction"></a>
+                    </div>
+                </div>
+                <div class="col-md-10 col-sm-12 col-xs-12">
+                    <div class="menu-container">
+                        <label class="responsive_menu" for="responsive_menu"><span>Menu</span></label>
+                        <input id="responsive_menu" type="checkbox">
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>         
+                            <li><a href="#">About Us <span><img src="images/menu-arrow.png" alt=""></span></a>
+                                <ul>      
+                                    <li><a href="overview.html">Overview</a></li>
+                                    <li><a href="vision-mission.html">Vision and Mission</a></li>
+                                    <li><a href="chairman-message.html">Chairman Message</a></li>
+                                    <li><a href="management.html">Management Team</a></li>
+                                    <li><a href="news.html">News & Events</a></li>
+                                    <li><a href="awards-achievements.html">Awards &amp; Achievements</a></li> 
+                                </ul>
+                            </li>         
+                            <li class="dropdown"><a href="#">Projects <span><img src="images/menu-arrow.png" alt=""></span></a>
+                                <ul>      
+                                    <li><a href="running-projects.html">Ongoing Projects</a></li>       
+                                    <li><a href="forthcoming-projects.html">Forthcoming Projects</a></li>      
+                                    <li><a href="completed-projects.html">Completed Projects</a></li> 
+                                </ul>
+                            </li>         
+
+                            <li class="dropdown"><a href="#">Media <span><img src="images/menu-arrow.png" alt=""></span></a>
+                                <ul>      
+                                    <li><a href="press-release.html">Press Coverage</a></li> 
+                                    <li><a href="photo-gallery.html">Photo Gallery</a></li>
+
+                                </ul>
+                            </li>  
+                            <li><a href="csr.html">CSR</a></li>
+                            <li><a href="const_updates_shiv_bajju_vihar.html">Cons. Updates</a></li>       
+                            <li class="dropdown"><a href="#">Resources <span><img src="images/menu-arrow.png" alt=""></span></a>
+                                <ul>      
+                                    <li><a href="stamp-duty-calculator.html">Stamp Duty Calculator</a></li>
+                                    <li><a href="downloads.html">Downloads</a></li>  
+                                </ul>
+                            </li>         
+                            <li><a href="career.html">Career</a></li>  
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<div ui-view="menuContent"></div> 
+
+<footer>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 hidden-sm hidden-xs">
+                    <div class="footer-nav foter-rgt-bdr">
+                        <label>About Star India Construction</label>
+                        <ul>
+                            <li><a href="overview.html">About Us</a></li>
+                            <li><a href="photo-gallery.html">Gallery</a></li>
+                            <li><a href="press-release.html">Press &amp; Media</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li><a href="downloads.html">Downloads</a></li>
+                        </ul>                                
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-sm hidden-xs">
+                    <div class="footer-nav foter-rgt-bdr">
+                        <label>Projects</label>
+                        <ul>
+                            <li><a href="running-projects.html">Ongoing Projects</a></li>
+                            <li><a href="completed-projects.html">Completed Projects</a></li>
+                            <li><a href="forthcoming-projects.html">Upcoming Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden-xs">
+                    <div class="footer-nav foter-rgt-bdr">
+                        <label>Quick Contact</label>
+                        <ul>
+                            <li>210, 403, 511 Adharshila Complex, Near RBI,<br>
+                                South Gandhi Maidan, Patna (Bihar) - 800001<br>
+                                Tel/ Fax: +91-612 2323026<br>
+                                Mobile: +91-9386732686, 9304854601<br>
+                                Email: <a href="mailto:info@starindiaconstruction.com" target="_blank">info@starindiaconstruction.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="share pull-right">
+                        <label>Connect with us</label>
+                        <ul class="list-inline">
+                            <li class="facebook"><a href="https://www.facebook.com/starindiaconstructionpvtltd" target="_blank" title="facebook"></a></li>
+                            <li class="youtube"><a href="#" target="_blank" title="youtube"></a></li>
+                            <li class="gplus"><a href="#" target="_blank" title="google plus"></a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bottom-div col-md-12">
+                    <div style="text-align:left; float:left;"> &copy; 2016 Star India Construction Pvt. Ltd. All Right Reserved</div>
+                    <div style="text-align:right;"> Mainatained by <a href="https://www.stribon.com/" target="_blank">STRIBON TECHNOLOGIES</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
